@@ -1,4 +1,4 @@
-          DATA FOR COUNTRIES
+
           
 # About project
 
@@ -7,6 +7,7 @@ I have developed a React project using JavaScript that showcases various attribu
 The project is designed to be interactive and user-friendly, providing an intuitive interface for accessing country-related information. It's hosted on GitHub, enabling collaboration and version control. This project serves as a valuable resource for users interested in learning about different countries and their characteristics, as well as for developers looking to integrate country data into their applications.
 
 
+![19x](https://github.com/gncwntd/countries/assets/114606260/2806c452-cc5e-4f6c-8804-8988400b3e5b)
 
 
 # Getting Started with Create React App
