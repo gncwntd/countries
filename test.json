@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 47.97,
+        "lat": 29.37
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 309.2,
+        "feels_like": 314.68,
+        "temp_min": 309.2,
+        "temp_max": 311.94,
+        "pressure": 1007,
+        "humidity": 46,
+        "sea_level": 1007,
+        "grnd_level": 1005
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.49,
+        "deg": 326,
+        "gust": 7.98
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1693508891,
+    "sys": {
+        "type": 2,
+        "id": 2036793,
+        "country": "KW",
+        "sunrise": 1693448699,
+        "sunset": 1693494763
+    },
+    "timezone": 10800,
+    "id": 387990,
+    "name": "Al Qiblah",
+    "cod": 200
+}

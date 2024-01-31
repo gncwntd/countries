@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import axios from "axios";
+import { useEffect, useState } from "react";
+import Search from "./components/Search";
+import Display from "./components/Display";
 function App() {
+  const [countries, setCountries] = useState([]);
+  const [search, setSearch] = useState("");
+
+  const getCountries = () => {
+    axios
+      .get("http://localhost:3001/countries")
+      .then((response) => setCountries(response.data));
+  };
+  useEffect(getCountries,[]);
+
+  const filteredCountries = search === "" ? "Too many matches, specify another filter" : Search(countries, search);
+  const handleSearch = (e) => setSearch(e.target.value);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      find countries <input onChange={handleSearch}></input>
+      <Display filteredCountries={filteredCountries}></Display>
     </div>
   );
 }
