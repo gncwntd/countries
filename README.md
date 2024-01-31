@@ -1,3 +1,14 @@
+          DATA FOR COUNTRIES
+          
+# About project
+
+I have developed a React project using JavaScript that showcases various attributes of countries. The project fetches data from an API, allowing users to explore information about different countries. Users can search for a specific country and obtain details such as its population, capital, currency, and more.
+
+The project is designed to be interactive and user-friendly, providing an intuitive interface for accessing country-related information. It's hosted on GitHub, enabling collaboration and version control. This project serves as a valuable resource for users interested in learning about different countries and their characteristics, as well as for developers looking to integrate country data into their applications.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
